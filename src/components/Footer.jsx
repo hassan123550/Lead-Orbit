@@ -72,7 +72,7 @@ const Footer = () => {
             <img src="/images/Lead.png" width={50} height={50} alt="Logo" className="mx-auto" />
           </a>
           <p className="text-xs text-zinc-400">
-            &copy; 2025 <span className="font-semibold text-white text-xs">CodeWith@Lead</span>
+            &copy; 2025 <span className="font-semibold text-white text-xs">CodeWith@Hassan</span>
           </p>
 
         </div>
