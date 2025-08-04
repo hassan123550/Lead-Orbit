@@ -58,13 +58,25 @@ const Hero = () => {
 
       {/* IMAGE SECTION */}
       <div data-aos="zoom-in" className="w-full lg:w-1/2 flex justify-center items-center px-4 sm:px-0 mt-10 lg:mt-0">
-        <div className="w-full max-w-[260px] h-[160px] sm:max-w-[320px] sm:h-[200px] md:max-w-[380px] md:h-[260px] lg:max-w-[420px] lg:h-[320px]">
+        {/* <div className="w-full max-w-[260px] h-[160px] sm:max-w-[320px] sm:h-[200px] md:max-w-[380px] md:h-[260px] lg:max-w-[420px] lg:h-[320px]">
           <img
             src="/images/Lead.png"
             alt="Brainwave Developers Illustration"
             className="w-full h-full object-cover rounded-xl shadow-lg"
           />
-        </div>
+        </div> */}
+
+           <div className="relative w-full max-w-[260px] h-[160px] sm:max-w-[320px] sm:h-[200px] md:max-w-[380px] md:h-[260px] lg:max-w-[420px] lg:h-[320px] rounded-xl overflow-hidden">
+      {/* Your Image */}
+      <img
+        src="/images/Lead.png"
+        alt="Lead Orbit Logo"
+        className="w-full h-full object-contain z-10 relative"
+      />
+
+      {/* Light Overlay */}
+      <div className="absolute inset-0 z-20 pointer-events-none animate-light-sweep"></div>
+    </div>
       </div>
     </main>
   );
